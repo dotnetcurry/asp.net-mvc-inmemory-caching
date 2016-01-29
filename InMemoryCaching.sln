@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7ECDAF37-8804-48CC-A287-5295414AF9F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87484B0D-8AD7-473B-A590-4F274583B5EE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "InMemoryCaching", "src\InMemoryCaching\InMemoryCaching.xproj", "{F30FDCBF-8374-4470-B7C0-7D949F90C24C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30FDCBF-8374-4470-B7C0-7D949F90C24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30FDCBF-8374-4470-B7C0-7D949F90C24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30FDCBF-8374-4470-B7C0-7D949F90C24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30FDCBF-8374-4470-B7C0-7D949F90C24C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F30FDCBF-8374-4470-B7C0-7D949F90C24C} = {7ECDAF37-8804-48CC-A287-5295414AF9F2}
+	EndGlobalSection
+EndGlobal
